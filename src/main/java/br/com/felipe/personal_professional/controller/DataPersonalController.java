@@ -13,4 +13,8 @@ public class DataPersonalController {
         return "test1";
     }
 
+    @GetMapping(value = "/test2")
+    public String test2(){
+        return "test2";
+    }
 }
